@@ -13,3 +13,13 @@ nav li a {
 nav li:hover{
     background-color: lightgray;
 }
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    padding: 10px;
+    background-color: lightcoral;
+}
+/* nav li:hover .dropdown{ */
+    /* display: block; */
+/* } */
+nav li:hover > .dropdown{display: block;}
