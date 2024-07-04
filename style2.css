@@ -1,0 +1,11 @@
+nav > ul > li{
+    display: inline;
+    margin-right: 15px; 
+}
+label {
+    display: block;
+    margin: 15px;
+}
+fieldset{
+    margin-bottom: 15px;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Simple Form</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+            <form action="">
+                <label for="name">Name   <!--for and id value is must same-->
+                    <input type="text" name="Enter Your Name" id="name">
+                </label>
+                <label for="pass">Password
+                    <input type="password" name="Enter Your Password" id="pass">
+                </label>
+                <label for="email">email
+                    <input type="email" name="Enter Your Email" id="email">
+                </label>
+
+                <fieldset>
+                    <legend>Select Gender</legend>
+                    <label for="male">  <!--For radio btn all input name must be same-->
+                        <input type="radio" name="gender" id="male">Male
+                    </label>
+                    <label for="female">
+                        <input type="radio" name="gender" id="female">Female
+                    </label>
+                    <label for="others">
+                        <input type="radio" name="gender" id="other">Others
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Check the right food...</legend>
+                    <label for="food">
+                        <input type="checkbox" name="Pitha" id="food">Pitha
+                    </label>
+                    <label for="food">
+                        <input type="checkbox" name="Biriyani" id="food">Biriyani
+                    </label>
+                    <label for="food">
+                        <input type="checkbox" name="Drinks" id="food">Drinks
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Special Instructions</legend>
+                    <textarea name="" id="" cols="20" rows="10"></textarea>
+                </fieldset>
+                <input type="reset">
+                <input type="submit" name="" id="">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
